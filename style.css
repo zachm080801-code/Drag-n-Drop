@@ -17,6 +17,9 @@ body{
   		background-size: cover;
 		font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;	/* Font to use */
 		background-color:#E2EBED;
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
 	}
 	#footer{
 		height:30px;
