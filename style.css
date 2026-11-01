@@ -1,11 +1,15 @@
 h1{
 	font-size: 40px;
-	font-weight:bold;
+	font-weight:bold; 
+	font-color: #111827;
+	outline: 4px solid white;
 }
 p{
 	text-align: center;
 	font-size: 20px;
 	font-weight:bold;
+	font-color: #111827;
+	outline: 4px white;
 }
 body{
 		background-image: url("SERIEA.jpg");
