@@ -17,7 +17,9 @@ body{
   		background-size: cover;
 		font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;	/* Font to use */
 		background-color:#E2EBED;
-		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	#footer{
 		height:30px;
@@ -40,9 +42,6 @@ body{
 		background-color:#FFF;
 		opacity:.8;
 		-moz-user-select:none;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 	}
 	#dhtmlgoodies_dragDropContainer ul{	/* General rules for all <ul> */
 		margin-top:0px;
