@@ -40,6 +40,9 @@ body{
 		background-color:#FFF;
 		opacity:.8;
 		-moz-user-select:none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	#dhtmlgoodies_dragDropContainer ul{	/* General rules for all <ul> */
 		margin-top:0px;
