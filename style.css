@@ -1,15 +1,11 @@
 h1{
 	font-size: 45px; 
  color: #1A1659;
-  	text-shadow: 3px 3px -2px #000000;
-	font-wight:bold;
+	font-wight: bold;
 }
 p{
-
-color: red;
-//text-shadow: 2px 2px 0px ;
-
-  font-wight: bold;
+	color: red;
+ 	font-wight: bold;
 	font-size: 25px;
 	text-align: center;
 }
