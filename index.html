@@ -152,10 +152,11 @@
 		}
 
 		for(var no=0;no<ulPositionArray.length;no++){
-			var ul_leftPos = ulPositionArray[no]['left'];	
-			var ul_topPos = ulPositionArray[no]['top'];	
-			var ul_height = ulPositionArray[no]['height'];
-			var ul_width = ulPositionArray[no]['width'];
+var targetUl = ulPositionArray[no]['obj'];
+			var ul_leftPos = getLeftPos(targetUl);
+			var ul_topPos = getTopPos(targetUl);
+			var ul_height = targetUl.clientHeight;
+			var ul_width = targetUl.offsetWidth;
 			
 			if((x+width) > ul_leftPos && x<(ul_leftPos + ul_width) && (y+height)> ul_topPos && y<(ul_topPos + ul_height)){
 				var noExisting = ulPositionArray[no]['obj'].getElementsByTagName('LI').length;
