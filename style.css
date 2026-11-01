@@ -7,6 +7,15 @@ body{
 		font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;	/* Font to use */
 		background-color:#E2EBED;
 	}
+h1{
+	font-size: 40px;
+	font-weight:bold;
+}
+p{
+	text-align: center;
+	font-size: 20px;
+	font-weight:bold;
+}
 	#footer{
 		height:30px;
 		vertical-align:middle;
